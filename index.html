@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <title>Frontend Mentor | 3-column preview card component</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="cards">
+        <article class="card sedan" role="region" aria-labelledby="sedan-title">
+          <img src="./assets/images/icon-sedans.svg" alt="" class="icon" aria-hidden="true" />
+          <h3 id="sedan-title" class="title">Sedans</h3>
+          <p class="description">
+            Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your
+            next road trip.
+          </p>
+          <button type="button" class="learn-btn sedan" aria-label="Learn more about Sedans">Learn More</button>
+        </article>
+        <article class="card suv" role="region" aria-labelledby="suv-title">
+          <img src="./assets/images/icon-suvs.svg" alt="" class="icon" aria-hidden="true" />
+          <h3 id="suv-title" class="title">SUVs</h3>
+          <p class="description">
+            Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and
+            off-road adventures.
+          </p>
+          <button type="button" class="learn-btn suv" aria-label="Learn more about SUVs">Learn More</button>
+        </article>
+        <article class="card luxury" role="region" aria-labelledby="luxury-title">
+          <img src="./assets/images/icon-luxury.svg" alt="" class="icon" aria-hidden="true" />
+          <h3 id="luxury-title" class="title">Luxury</h3>
+          <p class="description">
+            Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and
+            arrive in style.
+          </p>
+          <button type="button" class="learn-btn luxury" aria-label="Learn more about Luxury">Learn More</button>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io/home" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>.
+          Coded by <a href="https://github.com/slayer-br" target="_blank" rel="noopener noreferrer">Carlos</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
